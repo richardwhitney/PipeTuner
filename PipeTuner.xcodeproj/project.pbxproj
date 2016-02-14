@@ -19,6 +19,14 @@
 		795470E0184EA6AF003DBD8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795470C8184EA6AE003DBD8F /* UIKit.framework */; };
 		795470E8184EA6AF003DBD8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 795470E6184EA6AF003DBD8F /* InfoPlist.strings */; };
 		795470EA184EA6AF003DBD8F /* PipeTunerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 795470E9184EA6AF003DBD8F /* PipeTunerTests.m */; };
+		795470F4184EA6EC003DBD8F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795470F3184EA6EC003DBD8F /* Accelerate.framework */; };
+		795470F6184EA6F5003DBD8F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795470F5184EA6F5003DBD8F /* AudioToolbox.framework */; };
+		79547187184F68EE003DBD8F /* TunerProtoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79547185184F68EE003DBD8F /* TunerProtoMainViewController.m */; };
+		79547188184F68EE003DBD8F /* TunerProtoMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79547186184F68EE003DBD8F /* TunerProtoMainViewController.xib */; };
+		7954718C184F6927003DBD8F /* TunerProtoTuningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7954718A184F6927003DBD8F /* TunerProtoTuningViewController.m */; };
+		7954718D184F6927003DBD8F /* TunerProtoTuningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7954718B184F6927003DBD8F /* TunerProtoTuningViewController.xib */; };
+		79547190184F7022003DBD8F /* TunerProtoNotesCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7954718F184F7022003DBD8F /* TunerProtoNotesCollection.m */; };
+		79547193184F7044003DBD8F /* TunerProtoNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 79547192184F7044003DBD8F /* TunerProtoNote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,18 @@
 		795470E5184EA6AF003DBD8F /* PipeTunerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PipeTunerTests-Info.plist"; sourceTree = "<group>"; };
 		795470E7184EA6AF003DBD8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		795470E9184EA6AF003DBD8F /* PipeTunerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PipeTunerTests.m; sourceTree = "<group>"; };
+		795470F3184EA6EC003DBD8F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		795470F5184EA6F5003DBD8F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		79547184184F68EE003DBD8F /* TunerProtoMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunerProtoMainViewController.h; sourceTree = "<group>"; };
+		79547185184F68EE003DBD8F /* TunerProtoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunerProtoMainViewController.m; sourceTree = "<group>"; };
+		79547186184F68EE003DBD8F /* TunerProtoMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TunerProtoMainViewController.xib; sourceTree = "<group>"; };
+		79547189184F6927003DBD8F /* TunerProtoTuningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunerProtoTuningViewController.h; sourceTree = "<group>"; };
+		7954718A184F6927003DBD8F /* TunerProtoTuningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunerProtoTuningViewController.m; sourceTree = "<group>"; };
+		7954718B184F6927003DBD8F /* TunerProtoTuningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TunerProtoTuningViewController.xib; sourceTree = "<group>"; };
+		7954718E184F7022003DBD8F /* TunerProtoNotesCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunerProtoNotesCollection.h; sourceTree = "<group>"; };
+		7954718F184F7022003DBD8F /* TunerProtoNotesCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunerProtoNotesCollection.m; sourceTree = "<group>"; };
+		79547191184F7044003DBD8F /* TunerProtoNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunerProtoNote.h; sourceTree = "<group>"; };
+		79547192184F7044003DBD8F /* TunerProtoNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunerProtoNote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795470F6184EA6F5003DBD8F /* AudioToolbox.framework in Frameworks */,
+				795470F4184EA6EC003DBD8F /* Accelerate.framework in Frameworks */,
 				795470C7184EA6AE003DBD8F /* CoreGraphics.framework in Frameworks */,
 				795470C9184EA6AE003DBD8F /* UIKit.framework in Frameworks */,
 				795470C5184EA6AE003DBD8F /* Foundation.framework in Frameworks */,
@@ -96,6 +118,8 @@
 		795470C3184EA6AE003DBD8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				795470F5184EA6F5003DBD8F /* AudioToolbox.framework */,
+				795470F3184EA6EC003DBD8F /* Accelerate.framework */,
 				795470C4184EA6AE003DBD8F /* Foundation.framework */,
 				795470C6184EA6AE003DBD8F /* CoreGraphics.framework */,
 				795470C8184EA6AE003DBD8F /* UIKit.framework */,
@@ -109,6 +133,16 @@
 			children = (
 				795470D3184EA6AE003DBD8F /* TunerProtoAppDelegate.h */,
 				795470D4184EA6AE003DBD8F /* TunerProtoAppDelegate.m */,
+				79547191184F7044003DBD8F /* TunerProtoNote.h */,
+				79547192184F7044003DBD8F /* TunerProtoNote.m */,
+				7954718E184F7022003DBD8F /* TunerProtoNotesCollection.h */,
+				7954718F184F7022003DBD8F /* TunerProtoNotesCollection.m */,
+				79547184184F68EE003DBD8F /* TunerProtoMainViewController.h */,
+				79547185184F68EE003DBD8F /* TunerProtoMainViewController.m */,
+				79547186184F68EE003DBD8F /* TunerProtoMainViewController.xib */,
+				79547189184F6927003DBD8F /* TunerProtoTuningViewController.h */,
+				7954718A184F6927003DBD8F /* TunerProtoTuningViewController.m */,
+				7954718B184F6927003DBD8F /* TunerProtoTuningViewController.xib */,
 				795470D6184EA6AE003DBD8F /* Images.xcassets */,
 				795470CB184EA6AE003DBD8F /* Supporting Files */,
 			);
@@ -221,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				795470CF184EA6AE003DBD8F /* InfoPlist.strings in Resources */,
+				7954718D184F6927003DBD8F /* TunerProtoTuningViewController.xib in Resources */,
+				79547188184F68EE003DBD8F /* TunerProtoMainViewController.xib in Resources */,
 				795470D7184EA6AE003DBD8F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +278,10 @@
 			files = (
 				795470D5184EA6AE003DBD8F /* TunerProtoAppDelegate.m in Sources */,
 				795470D1184EA6AE003DBD8F /* main.m in Sources */,
+				7954718C184F6927003DBD8F /* TunerProtoTuningViewController.m in Sources */,
+				79547187184F68EE003DBD8F /* TunerProtoMainViewController.m in Sources */,
+				79547190184F7022003DBD8F /* TunerProtoNotesCollection.m in Sources */,
+				79547193184F7044003DBD8F /* TunerProtoNote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

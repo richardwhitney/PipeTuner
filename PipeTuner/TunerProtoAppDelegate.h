@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TunerProtoMainViewController.h"
+#import "TunerProtoTuningViewController.h"
 
 @interface TunerProtoAppDelegate : UIResponder <UIApplicationDelegate>
 
